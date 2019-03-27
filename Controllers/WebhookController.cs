@@ -16,7 +16,6 @@ namespace botchat.Controllers
     public System.Collections.Specialized.NameValueCollection QueryString { get; }
     private const string ACCESS_TOKEN = "cafrotosyeuthocon";
     private const string PAGE_ACCESS_TOKEN = "EAAJNZAWQZCfOwBALkmwAbDBih0DJuS3QPWLPwDOSLAEDFj2kIZBTdHvsdb3NdxlxgZBa5FhyFcmDe3mIBTbx5fGexuvbpD2vw8ZBnSCEyKAWwfjtWZAvOdrGLm1KJ7YezXGJbP79Be2MlGgcCGHyQ3rSBbcTZAm9pVch92qvt51EgZDZD";
-    // private const string PAGE_ACCESS_TOKEN = "EAAFAvnelb1cBAJUykhYTKtViTBbBjZCRQHeaeU0LlU9bbBZAyC2oytKEdagq1ZAjAwG3eS4TLpST3s0X9fXfZCFnvNjYoij7ANnvCQulHgXYKlHd4LjH7ovGzHb3SVGJ64eUZAIQaAZCEldrwBOLNzYHTZCwJZBVC4QaQJgEDXhaLwZDZD";
     // GET /webhook
     [HttpGet]
     public ActionResult<string> Get()
